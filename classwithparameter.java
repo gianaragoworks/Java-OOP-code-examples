@@ -16,3 +16,14 @@ class oop{
         
     }
 }
+
+// class using void
+class oop{
+    void honkHorn(){
+        System.out.println("beep beep");
+    }
+    public static void main(String[] args){
+        oop myoop = new oop();
+        myoop.honkHorn();
+    }
+}
